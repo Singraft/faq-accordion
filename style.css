@@ -8,19 +8,7 @@
     
 }
 
-body{
-    background-color: var(--light-pink);
-    background-image: url(./assets/images/background-pattern-desktop.svg);
-    box-sizing: border-box;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    font-family: "Work Sans", sans-serif;
-    background-size: auto;
-    background-repeat: no-repeat;
-}
+
 
 .text-header{
     display: flex;
@@ -94,6 +82,20 @@ body{
 }
 
 @media screen and (min-width: 896px) {
+    body{
+        background-color: var(--light-pink);
+        background-image: url(assets/images/background-pattern-desktop.svg);
+        box-sizing: border-box;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        font-family: "Work Sans", sans-serif;
+        background-size: auto;
+        background-repeat: no-repeat;
+    }
+
     .big-box{
         background-color: var(--white);
         width: max-content;
@@ -126,6 +128,21 @@ body{
 }
 
 @media screen and (max-width: 896px) {
+
+    body{
+        background-color: var(--light-pink);
+        background-image: url(assets/images/background-pattern-mobile.svg);
+        box-sizing: border-box;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        font-family: "Work Sans", sans-serif;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
     .big-box{
         background-color: var(--white);
         max-width: 18rem;
